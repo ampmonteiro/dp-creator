@@ -461,9 +461,9 @@ function genPDF() {
     // window.open(o, '_blank');
 
     //
-     $("#info tr").remove();
-     $("#info2 tr").remove();
-     $("#info3 tr").remove();
+     //$("#info tr").remove();
+     //$("#info2 tr").remove();
+     //$("#info3 tr").remove();
 
 
     doc.save('your-profile.pdf');
