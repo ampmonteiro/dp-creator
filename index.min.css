@@ -1,0 +1,8 @@
+/*
+
+Developed by Agostinho Monteiro
+updated:04/11/2016
+v1
+
+*/
+#pers tr td:nth-child(1){font-weight:700;width:20%}#db tr td:nth-child(2),#it1 tr td:nth-child(2),#it2 tr td:nth-child(2),#met tr td:nth-child(2),#op tr td:nth-child(2),#sof tr td:nth-child(2){width:30%}#db tr td:nth-child(3),#it1 tr td:nth-child(3),#it2 tr td:nth-child(3),#met tr td:nth-child(3),#op tr td:nth-child(3),#sof tr td:nth-child(3){width:40%}a i:hover{color:#000}body{background-color:#e2dede}article{background-color:#fff}.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{color:#f5f5f5;cursor:default;background-color:#3c763d;border:1px solid #ddd;border-bottom-color:transparent}footer div{background-color:#000;color:#fff}

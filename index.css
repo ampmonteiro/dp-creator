@@ -1,0 +1,40 @@
+#pers tr td:nth-child(1) {
+    font-weight: bold;
+    width: 20%;
+}
+
+#it1 tr td:nth-child(2), #it2 tr td:nth-child(2), #db tr td:nth-child(2), #sof tr td:nth-child(2), #met tr td:nth-child(2), #op tr td:nth-child(2) {
+    width: 30%;
+}
+
+#it1 tr td:nth-child(3), #it2 tr td:nth-child(3), #db tr td:nth-child(3), #sof tr td:nth-child(3), #met tr td:nth-child(3), #op tr td:nth-child(3) {
+    width: 40%;
+}
+
+a i:hover {
+    color: black;
+}
+
+body {
+  background-color: #e2dede;
+}
+
+article {
+    background-color: white;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #f5f5f5;
+    cursor: default;
+    background-color: #3c763d;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent
+}
+
+
+
+footer div{
+
+    background-color: black;
+    color: white;
+}
