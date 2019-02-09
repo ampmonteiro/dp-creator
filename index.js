@@ -182,7 +182,7 @@ function genPDF() {
         subject: 'My IT Profile',
         author: 'AMPM',
         keywords: 'report, js,html',
-        creator: 'NANO'
+        creator: 'ampm'
     });
 
     var totalPagesExp = "{total_pages_count_string}";
@@ -456,16 +456,16 @@ function genPDF() {
     }
 
 
-    var o = doc.output('datauristring');
+    //var o = doc.output('datauristring');
 
-    window.open(o, '_blank');
+    // window.open(o, '_blank');
 
     //
-    // $("#info tr").remove();
-    // $("#info2 tr").remove();
-    // $("#info3 tr").remove();
+     $("#info tr").remove();
+     $("#info2 tr").remove();
+     $("#info3 tr").remove();
 
 
-    //doc.save('Lv_249.pdf');
+    doc.save('your-profile.pdf');
 
 }
